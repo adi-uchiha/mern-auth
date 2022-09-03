@@ -13,12 +13,13 @@ const Navbar = () => {
     <header>
       <div className="container">
         <Link to="/">
-          <h1>Workout Buddy</h1>
+          <h1>🔐 Authenticator</h1>
         </Link>
 
         <nav>
           { user && (
             <div>
+              <span>{user.email} </span>
             <button onClick={handleLogout}>Logout</button>
           </div>
           )}
