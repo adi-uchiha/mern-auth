@@ -27,8 +27,8 @@ app.use((req, res, next) => {
 // app.use('/api/workouts', workoutRoutes)
 // app.use('/api/user', userRoutes)
 
-app.use('/workouts', require(path.join(__dirname, 'api', 'routes', 'workouts.js')));
-app.use('/user', require(path.join(__dirname, 'api', 'routes', 'user.js')));
+// app.use('/workouts', require(path.join(__dirname, 'api', 'routes', 'workouts.js')));
+// app.use('/user', require(path.join(__dirname, 'api', 'routes', 'user.js')));
 
 
 // connect to db
